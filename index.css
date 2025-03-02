@@ -1,0 +1,124 @@
+html{
+    scroll-behavior: smooth;
+}
+.card {
+    perspective: 1000px; /* Provides depth for the flip effect */
+}
+.card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+}
+.card-back {
+    background-color:gainsboro;
+    color: #000000;
+    transform: rotateY(180deg);
+}
+.input-group {
+    position: relative;
+    margin-top: 1.5rem;
+}
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #4A5568;
+    background: transparent;
+    color: #000000;
+    border-radius: 0.375rem;
+    transition: border-color 0.3s, padding-top 0.3s, padding-bottom 0.3s;
+}
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #000000;
+    outline: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.input-group label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    color: #000000;
+    font-size: 0.875rem;
+    transition: transform 0.3s, font-size 0.3s, color 0.3s;
+    pointer-events: none;
+}
+.input-group input:focus + label,
+.input-group textarea:focus + label,
+.input-group input:not(:placeholder-shown) + label,
+.input-group textarea:not(:placeholder-shown) + label {
+    transform: translateY(-1.9rem);
+    font-size: 0.75rem;
+    color: #000000;
+}
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: transparent;
+}
+.skill-bubble {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.skill-bubble:hover {
+    transform: translateY(-5px);
+    background-color: #4A5568;
+}
+.card {
+    border: 1px solid #000000;
+    padding: 30px;
+    width: 500px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+.graduation-hat {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.details {
+    flex-grow: 1;
+}
+.institution {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.field {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.years-grade-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.grade {
+    font-size: 16px;
+    font-weight: normal;
+}
+.card-exp{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+}
+.relative{
+    font-size: 0.8em;
+}

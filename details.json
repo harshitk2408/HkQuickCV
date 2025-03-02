@@ -1,0 +1,64 @@
+{
+    "personalDetails": {
+      "name": "Harshit Khurana",
+      "email": "khurana.harshit2003@gmail.com",
+      "bio": "Learner | Developer",
+      "linkedin": "https://www.linkedin.com/in/harshit-khurana-465979145/",
+      "github": "https://github.com/harshitk2408"
+    },
+    "education": [
+      {
+        "deg": "Bachelor of Technology",
+        "field": "Mathematics and Computing",
+        "inst": "Delhi Technological University",
+        "start": "2021",
+        "end": "2025",
+        "grade": "8.96 (Upto 6th Semester)"
+      }
+    ],
+    "projects": [
+      {
+        "thumbnail": "https://res.cloudinary.com/dgvfqf00g/image/upload/v1740903654/Screenshot_2025-03-02_at_1.36.21_PM_u7qxws.png",
+        "name": "QuickCV",
+        "link": "https://quick-cv-five.vercel.app/",
+        "description": "• Created a web application empowering students to design personalized portfolio websites by entering details like education, experience, skills, and projects.\n• Developed responsive, cross-platform templates using HTML5, CSS3, and JavaScript, ensuring seamless adaptation to various devices and enhancing user experience across different screen sizes.\n• Automated the creation of downloadable zip files containing fully built portfolio websites, streamlining the user experience.\n• Focused on delivering a clean, intuitive interface to enhance user engagement and satisfaction."
+      }
+    ],
+    "experiences": [
+      {
+        "company": "Amazon",
+        "role": "Software Developer Intern",
+        "description": "• Implemented automated configuration for real-time call monitoring metrics, reducing manual intervention\n• Participated in the migration to a next-generation real-time monitoring platform.",
+        "startDate": "2025-01-01T08:02:54.000Z",
+        "endDate": "2025-07-01T08:02:54.000Z"
+      },
+      {
+        "company": "Bharti Airtel",
+        "role": "Software Developer Intern",
+        "description": "• Worked on Project Order Manager which manage the Broadband user journeys.",
+        "startDate": "2024-06-01T08:10:17.000Z",
+        "endDate": "2024-07-01T08:10:17.000Z"
+      },
+      {
+        "company": "Elcom Digital",
+        "role": "Software Developer Intern",
+        "description": "• Engineered an API-integrated data pipeline to seamlessly extract, transform, and load open deal data from MySQL to Google Sheets, ensuring real-time updates and enabling data-driven decision-making. Achieved a 30% reduction in manual data handling time.\n• Automation of data extraction for deals received within targeted timeframes, coupled with the implementation of Cron-scheduled messaging to associated WhatsApp numbers. This initiative improved communication timeliness by 40%.",
+        "startDate": "2023-06-01T08:10:42.000Z",
+        "endDate": "2023-07-01T08:10:42.000Z"
+      }
+    ],
+    "skills": [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Next.js",
+      "Express.js",
+      "Node.js",
+      "MySQL",
+      "SpringBoot"
+    ]
+  }
